@@ -13,6 +13,7 @@ To write a python program to implement Breadth first Search.
 7.   Call the bfs function by passing arguments visited, graph and starting node.
 8.   Stop the program.
 ### Program:
+```
 graph = {
     '5': ['3', '7'],
     '3': ['2', '4'],
@@ -36,14 +37,16 @@ def bfs(visited, graph, node):
             if neighbour not in visited:
                 visited.append(neighbour)
                 queue.append(neighbour)
-
+```
 
 # Driver Code
 print("Following is the Breadth-First Search:")
 bfs(visited, graph, '5')
 ### Output:
-https://github.com/santhakumar-M/AI_Lab_2023-24/blob/main/Screenshot%20(10).png
+
+![Screenshot (10)](https://github.com/santhakumar-M/AI_Lab_2023-24/assets/121998012/6f13b3b8-096e-4a11-a66d-9cc961329854)
 
 
 ### Result:
+
 Thus the breadth first search order was found sucessfully.
